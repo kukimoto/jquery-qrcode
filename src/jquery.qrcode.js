@@ -28,6 +28,7 @@
 			var canvas	= document.createElement('canvas');
 			canvas.width	= options.width;
 			canvas.height	= options.height;
+			canvas.id	=option.id;
 			var ctx		= canvas.getContext('2d');
 
 			// compute tileW/tileH based on options.width/options.height
