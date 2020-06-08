@@ -14,6 +14,7 @@
 			typeNumber	: -1,
 			correctLevel	: QRErrorCorrectLevel.H,
                         background      : "#ffffff",
+			id		:"QRCode",
                         foreground      : "#000000"
 		}, options);
 
